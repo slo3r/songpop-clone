@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/songpop-clone/static/css/main.76307a99.css",
+    "main.js": "/songpop-clone/static/js/main.6334e28f.js",
+    "static/js/787.ac53cf6c.chunk.js": "/songpop-clone/static/js/787.ac53cf6c.chunk.js",
+    "static/media/Polyphia.jpg": "/songpop-clone/static/media/Polyphia.1fd64fd880a5e0c7043b.jpg",
+    "static/media/ironmaiden.jpg": "/songpop-clone/static/media/ironmaiden.2e6d2eaff5c17ac4221d.jpg",
+    "static/media/Trivium.jpg": "/songpop-clone/static/media/Trivium.dffe6737bbcf951a439d.jpg",
+    "static/media/soad.jpg": "/songpop-clone/static/media/soad.541a298057764e203663.jpg",
+    "static/media/Slipknot.jpg": "/songpop-clone/static/media/Slipknot.f7117ae63a62fc1bcf0e.jpg",
+    "static/media/bfmv.jpeg": "/songpop-clone/static/media/bfmv.a2bac2916dfd63d5041b.jpeg",
+    "static/media/logo.svg": "/songpop-clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/songpop-clone/index.html",
+    "main.76307a99.css.map": "/songpop-clone/static/css/main.76307a99.css.map",
+    "main.6334e28f.js.map": "/songpop-clone/static/js/main.6334e28f.js.map",
+    "787.ac53cf6c.chunk.js.map": "/songpop-clone/static/js/787.ac53cf6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76307a99.css",
+    "static/js/main.6334e28f.js"
+  ]
+}
