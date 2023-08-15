@@ -1,38 +1,78 @@
-.App {
+.page-container{
   text-align: center;
+  background-color: aliceblue;
+  font-size: 30px;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.choices{
+  /* background-color: green; */
+  width: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.choices div{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.choices button{
+  margin: 10px;
+  height: 70px;
+  font-size: 20px;
+}
+.selection{
+  /* position: fixed;  */
+  background-color: aliceblue;
+ 
+}
+.artist{
+font-size: 50px;
+font-weight: bold;
+}
+.artist-selection{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.artist-container{
+ /* background-color: green; */
+ 
+  margin-top: 200px;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 1s;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.artist-container:hover{
+  filter: drop-shadow(0 0 100px rgb(0, 0, 0));
+  /* width: 400px;
+  height: 400px;
+  font-size: 35px; */
+  transition: 0.2s;
+ color: white;
+}
+.artist-container img{
+ margin-top: -30px;
+  width: 70%;
+  height: 70%;
+ 
+}
+.countdown{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  font-size: 600px;
+  text-align: center;
+  background-color: aliceblue;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gameContainer{
+  padding-top: 5%;
 }
