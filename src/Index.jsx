@@ -5,7 +5,7 @@ import soad from '../images/soad.jpg';
 import Slipknot from '../images/Slipknot.jpg';
 import Polyphia from '../images/Polyphia.jpg';
 import Trivium from '../images/Trivium.jpg';
-import { db } from '../firebase';
+import { db } from './firebase';
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
 import {
   collection,
